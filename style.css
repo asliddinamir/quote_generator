@@ -1,0 +1,111 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+    background-color: rgb(7, 37, 46);
+    position: relative;
+    height: 88vh;
+}
+
+.heading {
+    background-color: #111;
+    margin: 4rem auto;
+    width: 30%;
+    border: 1px solid white;
+    text-align: center;
+    padding: 1px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #eee;
+}
+
+.container {
+    width: 400px;
+    height: auto;
+    background-color: #ccc;
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+.info {
+    padding: 1rem auto;
+}
+
+p {
+    color: #222;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+h3 {
+    font-size: 2rem;
+    color: rgb(65, 73, 24);
+}
+
+.btn {
+    padding: 5px 6px;
+    font-family: inherit;
+    background: #222;
+    outline: none;
+    color: #eee;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    border: none;
+    margin: 1rem;
+    transition: .3s ease;
+}
+.btn:hover{
+    letter-spacing: .1rem;
+}
+.bg{
+    background-color: red;
+}
+.ls{
+    letter-spacing: 1rem;
+    transition: 1s ease-out;
+}
+
+
+.footer{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 1rem;
+    color: wheat;
+}
+.footer a{
+    color: yellow;
+    text-decoration: none;
+    transition: 1s ease;
+}
+
+.footer a:hover{
+    letter-spacing: .09rem;
+    color: red;
+}
+
+
+@media(max-width:950px){
+    .container{
+        width: 80%;
+        height: auto;
+        margin: auto;
+    }
+    .info{
+        margin: 0;
+    }
+    .heading{
+        width: 80%;
+    }
+}
